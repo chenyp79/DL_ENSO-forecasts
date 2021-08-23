@@ -5,6 +5,7 @@
 import xarray as xr
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
 fileLoc = "/content/DL/ersstv5/"
 fList = os.listdir(fileLoc)
 print(fList)

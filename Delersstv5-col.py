@@ -36,3 +36,6 @@ Nino34IDataset = xr.Dataset({"nino34": Nino34I})
 sstaDataset = xr.Dataset({"ssta": ssta2})
 Nino34IDataset.to_netcdf("/content/DL/TrainData/ersstv5Nino34.nc")
 sstaDataset.to_netcdf("/content/DL/TrainData/ersstv5ssta.nc")
+
+Nino34IDataset.to_netcdf("/content/DL/ValidationData/ersstv5Nino34.nc")
+sstaDataset.to_netcdf("/content/DL/ValidationData/ersstv5ssta.nc")

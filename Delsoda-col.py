@@ -13,7 +13,7 @@ fLoc = r"/content/drive/MyDrive/ssh.nc"
 ssh = xr.open_dataset(fLoc, decode_times=False)["ssh"]
 print(ssh)
 # 统一时间
-ssh["time"] = pd.date_range("19580101", "20071201", freq="MS")
+ssh["time"] = pd.date_range("18710101", "20081201", freq="MS")
 
 # 出来看看
 print(ssh)
